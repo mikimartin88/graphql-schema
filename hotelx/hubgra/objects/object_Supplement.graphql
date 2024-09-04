@@ -9,8 +9,8 @@ type Supplement {
   # Specifies the supplement description.
   description: String
   
-  # Indicates the supplement type. Possible types: Fee, Ski_pass, Lessons, Meals, Equipment, Ticket, Transfers, Gla, Activity or Null.
-  supplementType: SupplementType!
+  # Indicates the supplement type. Possible types: Fee, Ski_pass, Lessons, Meals, Equipment, Ticket, Transfers, Gla, Activity or Other.
+  supplementType: SupplementType
   
   # Indicates the charge types. We need to know whether the supplements have to be paid when the consumer gets to the hotel or beforehand.
   # Possible charge types: INCLUDE or EXCLUDE.

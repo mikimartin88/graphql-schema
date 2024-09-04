@@ -23,4 +23,7 @@ enum SupplementType {
   
   # Activities that the costumer can do.
   ACTIVITY
+  
+  # Other types of supplement.
+  OTHER
 }
